@@ -1,0 +1,17 @@
+1) Advanced Fraud Detection Through the Use of Multiple CTEs:-
+  Q.Use multiple CTEs to find accounts with suspecious activity, 
+  like big money transfers, back-to-back transactions with no balance change, and flagged transactions.
+
+2)Identifying Recurring Fraudulent Transactions:-
+Q. Use a recursive CTE to trace possible money laundering paths where funds move between accounts over several steps, with each transaction marked as fraudulent.
+
+
+3) Examining fraudulent transactions across time:-
+Q.Write a Common Table Expression (CTE) to compute the moving 
+sum of fraudulent transactions for each account, covering the last 5 time periods.
+
+4) Q.create a query that verifies whether the computed value of new_updated_Balance matches the actual newbalanceDest in the table. If they are identical, the query should return those rows.
+
+5)Q.Identify Transactions Involving Zero Balance:-
+Objective: Identify transactions in which the destination account had a zero balance either prior to or following the transaction.
+SQL Query: Construct a query to retrieve transactions where either oldbalanceDest or newbalanceDest equals zero.
