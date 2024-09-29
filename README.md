@@ -1,10 +1,10 @@
 #SQL-Data-Analysis-Fraud-Detection-Project
 This project analyzes a financial dataset with over 1 million rows to detect fraud using SQL techniques, including CTEs. Key analyses include identifying suspicious accounts, tracing money laundering paths, computing moving sums of fraudulent transactions, verifying balance calculations, and finding transactions with zero balances. I tackled several key analyses:
-1️. Detected suspicious accounts with large transactions and flagged activity.
-2️⃣ Traced potential money laundering paths through recursive CTEs.
-3️⃣ Computed moving sums of fraudulent transactions over time.
-4️⃣ Verified the accuracy of balance calculations.
-5️⃣ Identified transactions involving zero balances.
+* Detected suspicious accounts with large transactions and flagged activity.
+* Traced potential money laundering paths through recursive CTEs.
+* Computed moving sums of fraudulent transactions over time.
+* Verified the accuracy of balance calculations.
+* Identified transactions involving zero balances.
 
 Dataset Link:- https://www.kaggle.com/datasets/ealaxi/paysim1/data
 
