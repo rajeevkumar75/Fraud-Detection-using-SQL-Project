@@ -1,6 +1,6 @@
 #SQL-Data-Analysis-Fraud-Detection-Project
 This project analyzes a financial dataset with over 1 million rows to detect fraud using SQL techniques, including CTEs. Key analyses include identifying suspicious accounts, tracing money laundering paths, computing moving sums of fraudulent transactions, verifying balance calculations, and finding transactions with zero balances. I tackled several key analyses:
-1️⃣ Detected suspicious accounts with large transactions and flagged activity.
+1️. Detected suspicious accounts with large transactions and flagged activity.
 2️⃣ Traced potential money laundering paths through recursive CTEs.
 3️⃣ Computed moving sums of fraudulent transactions over time.
 4️⃣ Verified the accuracy of balance calculations.
